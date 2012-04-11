@@ -1,84 +1,31 @@
+body
+{
+  font-size: 1.2em;
+  font-family: "Helvetica Neue",Arial,Helvetica;
+}
+
 #container
 {
   margin: 0 auto;
-  padding: 0 20px 70px;
-  position: relative;
-  width: 960px;
-  z-index: 1;
+  width: 900px;
 }
 
 header
 {
-  padding: 70px 0 60px 160px;
+  padding: 70px 0 60px 0;
 }
 
 header h1
 {
-  font-family: AlternateGothicFSNo3,"Arial Narrow";
-  font-size: 2.571em;
+  font-size: 1.5em;
   font-weight: normal;
-  letter-spacing: -.05em;
-  line-height: 1em;
   text-transform: uppercase;
-}
-
-header h1 a
-{
   color: #635252;
   filter: dropshadow(color=#fff,offX=0,offY=1);
   text-shadow: 0 1px 2px white;
-  text-decoration: none;
 }
 
-#posts
+a
 {
-  width: 700px;
-  color: #4F4543;
-  font-family: "Helvetica Neue",Arial,Helvetica;
-  font-size: .875em;
-}
-
-
-.article-frame
-{
-  padding-left: 160px;
-  position: relative;
-  width: 540px;
-}
-
-.article-frame .meta
-{
-  font-size: .786em;
-  left: 0;
-  position: absolute;
-  text-align: right;
-  text-shadow: 1px 1px 0 white;
-  filter: dropshadow(color:#fff,offX=1,offY=1);
-  top: 30px;
-  width: 140px;
-}
-
-
-article
-{
-  border-left: dotted 2px #B5ADAC;
-  padding: 20px 20px 45px;
-  position: relative;
-  width: 500px;
-}
-
-
-article header h1
-{
-  font-family: AlternateGothicFSNo3,"Arial Narrow";
-  font-size: 1.714em;
-  font-weight: normal;
-  line-height: 1em;
-  text-transform: uppercase;
-}
-
-h1 a
-{
-  color: #635252;
   text-decoration: none;
 }

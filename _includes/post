@@ -1,7 +1,6 @@
-<div class="article-frame">
-  <div class="meta">{{ post.date | date_to_long_string }}</div
-  <article class="post">
-    <h1>{{ post.title }}</h1>
+<article class="post">
+  {{ post.date | date_to_long_string }}
+  <div class="content">
     {{ post.content }}
-  </article>
-</div>
+  </div>
+</article>

@@ -4,11 +4,10 @@ title: Home
 ---
 
 <div id="posts">
-  <div id="articles">
-{% for post in site.posts %}
-  {% include post %}
-  {% if forloop.rindex0 > 0 %}
-    <hr/>
-  {% endif %}
-{% endfor %}
-</div></div>
+  {% for post in site.posts %}
+    {% include post %}
+    {% if forloop.rindex0 > 0 %}
+      <hr/>
+    {% endif %}
+  {% endfor %}
+</div>
