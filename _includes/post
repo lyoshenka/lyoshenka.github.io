@@ -1,6 +1,6 @@
 <article class="post">
-  {{ post.date | date_to_long_string }}
+  <a href="{{ postObject.url }}">{{ postObject.date | date_to_long_string }}</a>
   <div class="content">
-    {{ post.content }}
+    {{ postContent }}
   </div>
 </article>
