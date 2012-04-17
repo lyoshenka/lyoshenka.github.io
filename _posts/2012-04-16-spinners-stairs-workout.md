@@ -7,16 +7,17 @@ layout: post
 Ran stairs at the Art Museum with Miggs, Glazer, Patrick and Leon.
 
 ## Part 1
-Every other
-Every stair
-Every other
-Left leg
-Right leg
-Every other
-Up two down one
-Every other
-Max jump
-Every other all the way up
+
+- Every other
+- Every stair
+- Every other
+- Left leg
+- Right leg
+- Every other
+- Up two down one
+- Every other
+- Max jump
+- Every other all the way up
 
 5 min rest
 
