@@ -1,3 +1,3 @@
 #!/bin/bash
 
-git add _posts/ && git commit -m "New post" && git push
+git add -A _posts/ && git commit -m "New post" && git push
