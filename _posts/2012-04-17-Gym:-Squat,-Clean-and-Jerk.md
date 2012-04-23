@@ -2,7 +2,7 @@
 layout: post
 ---
 
-## Gym: Squat, Clean and Jerk
+# Gym: Squat, Clean and Jerk
 
 Squat: 5x190lb, 5x195lb, 5x200lb
 
