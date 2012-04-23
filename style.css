@@ -12,7 +12,7 @@ body
 
 header
 {
-  padding: 70px 0 60px 0;
+  padding: 40px 0 30px 0;
 }
 
 header h1
@@ -28,4 +28,14 @@ header h1
 a
 {
   text-decoration: none;
+}
+
+h2
+{
+  font-size: 1.25em;
+}
+
+.pagination
+{
+  background: #E6E4E2;
 }
