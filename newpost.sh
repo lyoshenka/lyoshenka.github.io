@@ -5,6 +5,8 @@ if [ -z "$*" ]; then
   exit 1;
 fi
 
-FILENAME=_posts/`date +%Y-%m-%d`-`echo "$*" | tr ' ' -`.md
-echo -e "---\nlayout: post\n---\n\n" >> $FILENAME
+TITLE=`echo "$*" | tr '[:upper:]' '[:lower:]' | sed -e "s/[^a-z0-9_]\+/-/g"`
+
+FILENAME=_posts/`date +%Y-%m-%d`-"$TITLE".md
+echo -e "---\nlayout: post\n---\n\n## $*\n\n" >> $FILENAME
 vi $FILENAME
