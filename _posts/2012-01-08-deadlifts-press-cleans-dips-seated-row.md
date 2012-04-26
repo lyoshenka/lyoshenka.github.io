@@ -2,8 +2,7 @@
 layout: post
 ---
 
-Deadlifts, Press, Cleans, Dips, Seated Row
-==========================================
+# Deadlifts, Press, Cleans, Dips, Seated Row
 
 Deadlift 5,5,3 @ 275lb
 

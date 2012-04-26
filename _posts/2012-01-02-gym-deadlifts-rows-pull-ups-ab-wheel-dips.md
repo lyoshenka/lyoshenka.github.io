@@ -2,8 +2,7 @@
 layout: post
 ---
 
-Gym: Deadlifts, Rows, Pull Ups, Ab Wheel, Dips
-==============================================
+# Gym: Deadlifts, Rows, Pull Ups, Ab Wheel, Dips
 
 Deadlift 3x5 @ 265
 

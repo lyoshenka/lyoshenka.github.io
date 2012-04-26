@@ -2,8 +2,7 @@
 layout: post
 ---
 
-Summary of the past two weeks
-=============================
+# Summary of the past two weeks
 
 Haven't posted in a while. Here's a summary:  
 

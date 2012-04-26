@@ -2,8 +2,7 @@
 layout: post
 ---
 
-Gym: Dips, Bench, Pull ups & Spinners Practice
-==============================================
+# Gym: Dips, Bench, Pull ups & Spinners Practice
 
 Gym FridayDips 3x10 @ 25lb
 

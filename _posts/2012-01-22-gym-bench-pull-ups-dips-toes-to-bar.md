@@ -2,8 +2,7 @@
 layout: post
 ---
 
-Gym: Bench, Pull Ups, Dips, Toes to Bar
-=======================================
+# Gym: Bench, Pull Ups, Dips, Toes to Bar
 
 Bench: 5,5,4 @ 155lb (again!)
 

@@ -2,8 +2,7 @@
 layout: post
 ---
 
-Gym: Bench, Overhead Squat, Calf Raise, Bent-Over Row
-=====================================================
+# Gym: Bench, Overhead Squat, Calf Raise, Bent-Over Row
 
 Bench: 3x170lb,  4x160lb,  6x150lb
 

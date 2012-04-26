@@ -2,8 +2,7 @@
 layout: post
 ---
 
-WL, Gym (Deadlift, Push Press, Pull Ups), Ultisquash, WL
-========================================================
+# WL, Gym (Deadlift, Push Press, Pull Ups), Ultisquash, WL
 
 Thursday: WL
 
