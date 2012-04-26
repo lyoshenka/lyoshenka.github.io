@@ -2,6 +2,8 @@
 layout: post
 ---
 
+# Gym and Disc Golf
+
 ## Gym: Bench, Squats, Dips, Cleans
 
 - Bench: 4x170lb, 4x160lb, 4x150lb
