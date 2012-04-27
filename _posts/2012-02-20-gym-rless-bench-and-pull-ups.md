@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Gym: RLESS, Bench and Pull Ups
 ---
-
-# Gym: RLESS, Bench and Pull Ups
 
 Warm up
 

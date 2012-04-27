@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Gym: Bench, Deadlift, Pullups
 ---
-
-# Gym: Bench, Deadlift, Pullups
 
 Bench: 3x170, 6x160, 6x150
 

@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Spinners Gym and Film Session
 ---
-
-# Spinners Gym and Film Session
 
 ## Part 1 - Gym
 

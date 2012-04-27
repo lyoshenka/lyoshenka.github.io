@@ -1,8 +1,7 @@
 ---
 layout: post
+title: WL, Gym (Deadlift, Push Press, Pull Ups), Ultisquash, WL
 ---
-
-# WL, Gym (Deadlift, Push Press, Pull Ups), Ultisquash, WL
 
 Thursday: WL
 
@@ -10,13 +9,11 @@ Lost to Butter&rsquo;s team in full for the third time this season. We played
 really well, especially on D, but still lost. That puts us tied for 5th
 with Drexel and TKO.
 
-
 Friday: Gym
 
 Deadlift 5,6,6 @ 205,225,255lb
 Push Press 3x5 @ 95,115,115lb
 Pull Ups 4,4,3 @ 45,40,35lb
-
 
 Saturday: Ultisquash
 

@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Tabata Pull Ups, DB Thrusters, Sit Ups and Burpees
 ---
-
-# Tabata Pull Ups, DB Thrusters, Sit Ups and Burpees
 
 Pull Ups: 6, 5, 5, 5, 5, 4, 4, 4 (38 total)
 

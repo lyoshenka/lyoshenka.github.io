@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Wednesday and Thursday: Winter League
 ---
-
-# Wednesday and Thursday: Winter League
 
 Won our core game on Wednesday, then tied BLo's full team on Thursday.
 

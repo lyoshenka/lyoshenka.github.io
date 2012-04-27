@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Recap of Last Week
 ---
-
-# Recap of Last Week
 
 Tuesday: Won a core league game against Ted's team
 

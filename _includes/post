@@ -1,4 +1,5 @@
 <article class="post">
+  <h1>{{ postObject.title }}</h1>
   <a href="{{ postObject.url }}">{{ postObject.date | date_to_long_string }}</a>
   <div class="content">
     {{ postContent }}

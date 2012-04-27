@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Gym: RLESS, Bench, Power Cleans, Dips
 ---
-
-# Gym: RLESS, Bench, Power Cleans, Dips
 
 RLESS 3x5 @ 140lbs
 
