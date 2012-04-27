@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Gym: Bench, Pullups, One-Legged Squats
+title: "Gym: Bench, Pullups, One-Legged Squats"
 ---
 
-Bench 3x5 @ 145lbPullups: 5,4,4 @ 35,40,40lbOne-legged Squats: 3x5 @ 95lb
+- Bench 3x5 @ 145lb
+- Pullups: 5,4,4 @ 35,40,40lb
+- One-legged Squats: 3x5 @ 95lb

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym: RLESS, Bench, Cleans
+title: "Gym: RLESS, Bench, Cleans"
 ---
 
 RLESS 3x5 @ 130, 135, 135 lb

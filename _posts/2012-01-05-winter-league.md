@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Winter League
+title: "Winter League"
 ---
 
 Tuesday: Beat Truskin's team in Core. I really need to get better at being patient and also at boxing people out.

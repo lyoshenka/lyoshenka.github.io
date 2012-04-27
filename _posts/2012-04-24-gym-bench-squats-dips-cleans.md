@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym and Disc Golf
+title: "Gym and Disc Golf"
 ---
 
 ## Gym: Bench, Squats, Dips, Cleans

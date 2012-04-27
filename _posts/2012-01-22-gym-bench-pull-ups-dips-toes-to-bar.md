@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym: Bench, Pull Ups, Dips, Toes to Bar
+title: "Gym: Bench, Pull Ups, Dips, Toes to Bar"
 ---
 
 Bench: 5,5,4 @ 155lb (again!)

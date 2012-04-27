@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym: RLESS, Bench and Pull Ups
+title: "Gym: RLESS, Bench and Pull Ups"
 ---
 
 Warm up

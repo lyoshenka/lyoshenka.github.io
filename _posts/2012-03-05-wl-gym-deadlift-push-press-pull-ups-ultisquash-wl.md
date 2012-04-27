@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WL, Gym (Deadlift, Push Press, Pull Ups), Ultisquash, WL
+title: "WL, Gym (Deadlift, Push Press, Pull Ups), Ultisquash, WL"
 ---
 
 Thursday: WL

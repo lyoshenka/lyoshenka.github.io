@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym: Deadlift, Push Press, Wide Pull Ups
+title: "Gym: Deadlift, Push Press, Wide Pull Ups"
 ---
 
 Deadlift 3x5 @ 215lb

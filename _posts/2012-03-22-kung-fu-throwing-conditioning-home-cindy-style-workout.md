@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kung Fu Throwing + Conditioning, Home Cindy-style Workout
+title: "Kung Fu Throwing + Conditioning, Home Cindy-style Workout"
 ---
 
 Yesterday: Spinners track workout at Temple. I still can&#39;t run, so Glazer and I did Parts 1 and 2 of Kung Fu Throwing. I liked part 1 but thought that part 2 was too short. That&#39;s the part that I need the most work on, but it has very few throws. I think I&#39;d double or triple that part next time. Then we did the typical Spinners conditioning (push ups, squats, abs).

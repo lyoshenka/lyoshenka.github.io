@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym: Deadlift, Push Press, Dips
+title: "Gym: Deadlift, Push Press, Dips"
 ---
 
 Deadlift: 4x245lb, 4x245lb, 5x225lb

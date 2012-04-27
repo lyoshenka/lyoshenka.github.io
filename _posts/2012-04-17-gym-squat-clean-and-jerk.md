@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gym: Squat, Clean and Jerk
+title: "Gym: Squat, Clean and Jerk"
 ---
 
 
