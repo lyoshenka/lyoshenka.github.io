@@ -1,7 +1,7 @@
-<article class="post">
+<article>
+  <a class="date clearfix" href="{{ postObject.url }}">{{ postObject.date | date_to_long_string }}</a>
   <h1>{{ postObject.title }}</h1>
-  <a href="{{ postObject.url }}">{{ postObject.date | date_to_long_string }}</a>
-  <div class="content">
+  <div>
     {{ postContent }}
   </div>
 </article>

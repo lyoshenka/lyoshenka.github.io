@@ -8,5 +8,5 @@ fi
 TITLE=`echo "$*" | tr '[:upper:]' '[:lower:]' | sed -e "s/[^a-z0-9_]\+/-/g"`
 
 FILENAME=_posts/`date +%Y-%m-%d`-"$TITLE".md
-echo -e "---\nlayout: post\n---\n\n# $*\n\n" >> $FILENAME
+echo -e "---\nlayout: post\ntitle:$*\n---\n\n# $*\n\n" >> $FILENAME
 vi $FILENAME
