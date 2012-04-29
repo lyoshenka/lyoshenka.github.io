@@ -30,8 +30,9 @@ GEM
     netrc (0.7.1)
     posix-spawn (0.3.6)
     rack (1.4.1)
-    rack-contrib (1.1.0)
-      rack (>= 0.9.1)
+    rack-jekyll (0.3.5)
+      jekyll
+      rack
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (0.9.8)
@@ -43,4 +44,4 @@ PLATFORMS
 DEPENDENCIES
   heroku
   jekyll
-  rack-contrib
+  rack-jekyll
