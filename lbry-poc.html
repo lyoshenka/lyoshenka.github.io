@@ -10,7 +10,7 @@
       const blockSize = 16;
       const blobDomain = "https://s3.us-east-2.amazonaws.com/blobs.lbry.io/";
 
-      fetch(blobDomain + "6d7d2722a78116e22f7718df14244053d7638db6c560ee0e255e04d54c8f8fa755e3abf8732ee85f9a7aae3100c71183").then(rsp => {
+     fetch(blobDomain + "6d7d2722a78116e22f7718df14244053d7638db6c560ee0e255e04d54c8f8fa755e3abf8732ee85f9a7aae3100c71183").then(rsp => {
         return rsp.json()
       }).then(sdBlob => {
         let chunks = [];
@@ -23,13 +23,9 @@
           fetch(blobDomain + blob.blob_hash).then(rsp => {
             return rsp.arrayBuffer();
           }).then(blobRaw => {
-            const u = new Uint8Array(blobRaw);
-            const decrypted = decrypt(u, hexToBytes(sdBlob.key), hexToBytes(blob.iv))
-            const unpadded = unpad(decrypted);
-            // console.log(blobRaw.byteLength, decrypted.length, decrypted.slice(-1), unpadded.length);
-            return unpadded;
-          }).then(rawChunk => {
-            chunks[i] = rawChunk;
+            return unpad(decrypt(new Uint8Array(blobRaw), hexToBytes(sdBlob.key), hexToBytes(blob.iv)));
+          }).then(chunk => {
+            chunks[i] = chunk;
             chunksDone++;
             if (chunksDone == sdBlob.blobs.length - 1)
             {
