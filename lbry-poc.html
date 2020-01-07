@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <video id="player" controls style="height: 300px; width: 500px;"></video>
+
+    <script type="text/javascript"
+            src="https://cdn.rawgit.com/ricmoo/aes-js/e27b99df/index.js"></script>
+
+    <script>
+      const blockSize = 16;
+      const blobDomain = "http://blobs.lbry.io/";
+
+      fetch(blobDomain + "6d7d2722a78116e22f7718df14244053d7638db6c560ee0e255e04d54c8f8fa755e3abf8732ee85f9a7aae3100c71183").then(rsp => {
+        return rsp.json()
+      }).then(sdBlob => {
+        let chunks = [];
+        let chunksDone = 0;
+        sdBlob.blobs.forEach((blob, i) => {
+          if (blob.length == 0)
+          {
+            return;
+          }
+          fetch(blobDomain + blob.blob_hash).then(rsp => {
+            return rsp.arrayBuffer();
+          }).then(blobRaw => {
+            const u = new Uint8Array(blobRaw);
+            const decrypted = decrypt(u, hexToBytes(sdBlob.key), hexToBytes(blob.iv))
+            const unpadded = unpad(decrypted);
+            // console.log(blobRaw.byteLength, decrypted.length, decrypted.slice(-1), unpadded.length);
+            return unpadded;
+          }).then(rawChunk => {
+            chunks[i] = rawChunk;
+            chunksDone++;
+            if (chunksDone == sdBlob.blobs.length - 1)
+            {
+              play(sdBlob, chunks);
+            }
+          });
+        });
+      });
+
+      function play(sdBlob, chunks) {
+        console.log("playing", sdBlob, chunks);
+
+        const totalSize = chunks.reduce((acc, curr) => {
+          return acc + curr.length
+        }, 0);
+
+        const concat = new Uint8Array(totalSize);
+        let len = 0;
+        for (let i = 0; i < chunks.length; i++)
+        {
+          concat.set(chunks[i], len);
+          len += chunks[i].length;
+        }
+
+        // const mediaSource = new MediaSource();
+        // mediaSource.addEventListener('sourceopen', () =>{
+        //   const sourceBuffer = mediaSource.addSourceBuffer('video/mp4');
+        //   sourceBuffer.appendBuffer(concat);
+        // });
+
+        const player = document.getElementById('player');
+        // player.src = window.URL.createObjectURL(mediaSource);
+        player.src = window.URL.createObjectURL(new Blob([concat.buffer], {type: "video/mp4"}));
+      }
+
+      function decrypt(data, key, iv) {
+        // https://www.npmjs.com/package/aes-js
+        return new aesjs.ModeOfOperation.cbc(key, iv).decrypt(data);
+        // const decryptedText = aesjs.utils.utf8.fromBytes(decryptedBytes);
+        // console.log(decryptedText);
+      };
+
+
+      function unpad(data) {
+        if (data.length == 0 || data.length % blockSize != 0)
+        {
+          console.error("wrong block size", data.length, blockSize)
+          return null;
+        }
+        const paddingByte = data.slice(-1);
+        return data.slice(0, data.length - paddingByte);
+      }
+
+      function hexToBytes(hex) {
+        let bytes = [];
+        for (let c = 0; c < hex.length; c += 2)
+        {
+          bytes.push(parseInt(hex.substr(c, 2), 16));
+        }
+        return bytes;
+      }
+
+      // Convert a byte array to a hex string
+      function bytesToHex(bytes) {
+        let hex = [];
+        for (let i = 0; i < bytes.length; i++)
+        {
+          let current = bytes[i] < 0 ? bytes[i] + 256 : bytes[i];
+          hex.push((current >>> 4).toString(16));
+          hex.push((current & 0xF).toString(16));
+        }
+        return hex.join("");
+      }
+    </script>
+  </body>
+</html>
