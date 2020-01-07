@@ -8,7 +8,7 @@
 
     <script>
       const blockSize = 16;
-      const blobDomain = "http://blobs.lbry.io/";
+      const blobDomain = "https://s3.us-east-2.amazonaws.com/blobs.lbry.io/";
 
       fetch(blobDomain + "6d7d2722a78116e22f7718df14244053d7638db6c560ee0e255e04d54c8f8fa755e3abf8732ee85f9a7aae3100c71183").then(rsp => {
         return rsp.json()
